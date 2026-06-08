@@ -48,6 +48,6 @@ accuracy = model.evaluate(validation_dataset)[1]
 print(f"Validation accuracy: {accuracy:.2f}")
 
 if(accuracy > 0.95):
-    model.save("SimpleCNN.h5")
+    model.save("SimpleCNN_practice.h5")
 else:
     print("Better luck next time kiddo")

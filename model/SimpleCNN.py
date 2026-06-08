@@ -58,4 +58,4 @@ loss, accuracy = model.evaluate(validation_dataset)
 print(f"Validation accuracy: {accuracy:.2f}")
 
 # Save model
-model.save('SimpleCNN_Practice.h5')
+model.save('SimpleCNN.h5')
